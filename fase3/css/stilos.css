@@ -1,0 +1,30 @@
+.encabezado{
+    background-color: aqua;
+    padding: 30px;
+}
+.navegacion{
+    background-color: blue;
+    padding: 30px;
+}
+.contenedor{
+    background-color: blueviolet;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.principal{
+    background-color: blanchedalmond;
+    padding: 30px;
+    grid-column: 1/4;
+}
+.lateral{
+background-color: blue;
+padding: 30px;
+grid-column: 4/5;
+
+}
+.pie{
+background-color: black;
+color: white;
+padding: 30px;
+}
