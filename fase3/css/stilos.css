@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: #150050;
-    padding: 30px;
+    padding: 20px;
     color: white;
 }
 .contenedor{
@@ -33,5 +33,5 @@ grid-column: 4/5;
 .pie{
 background-color: #000000;
 color: white;
-padding: 30px;
+padding: 10px;
 }
