@@ -6,6 +6,9 @@
     color: white;
 }
 .navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #150050;
     padding: 30px;
     color: white;
