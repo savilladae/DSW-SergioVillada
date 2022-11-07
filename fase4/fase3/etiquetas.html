@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etiquetas</title>
+    <link rel="stylesheet" href="css/stilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="img/logo.png" alt="Logo de sitio" height="120px" width="150px">
+        <h1>
+            Etiquetas Básicas de HTML, Atributos y Valores
+        </h1>
+
+    </header>
+    <nav>
+        <ul class="navegacion">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul>
+                    <li><a href="etiquetas.html">Etiquetas Básicas de HTML</a> </li>
+                    <li><a href="atributosyva.html">Atributos y valores</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos Digitales</a>
+                <ul>
+                    <li><a href="recuros1.html">Recurso 1</a> </li>
+                    <li><a href="recursos2.html">Recurso 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Aprendizaje</a>
+                <ul>
+                    <li><a href="">Actividad 1</a> </li>
+                    <li><a href="">Actividad 2</a> </li>
+                </ul>
+            </li>
+            <li><a href="acercad.html">Acerca de</a></li>
+        </ul>
+    </nav>
+    <main class="contenedor">
+        <section class="principal">
+            <article>
+                <h4>
+                    Etiquetas Básicas de HTM </h4>
+                <img src="img/etiquetas.jpg" alt="Esta es una imagen que muestra una representación de etiquetas html">
+                <p>
+                    Según MR Gómez – 2013 <br>
+                    Actualmente, existen aproximadamente 100 etiquetas o elementos definidos
+                    en HTML. Es posible que algunas de estas etiquetas no se encuentren disponibles
+                    en algunas versiones HTML. A continuación, presentamos una lista detallada
+                    con las etiquetas más comunes: <br>
+                    <li>
+                        < html> : Esta etiqueta engloba o representa el inicio y el fin de un documento
+                            HTML. Salvo alguna excepción que veremos más adelante, cualquier otra
+                            etiqueta del documento debe estar definida dentro de la misma.
+                    </li>
+                    <li>
+                        < body> : Etiqueta que engloba el cuerpo del documento HTML, cualquier
+                            contenido o información que vayamos a mostrar en nuestra página web debe
+                            estar codificado dentro de esta etiqueta.
+                    </li>
+                    <li>
+                        < head> : Es la etiqueta que define el inicio y el fin de la cabecera del documento HTML.
+                    </li>
+                    <li>
+                        < meta> : Emplearemos esta etiqueta para definir las propiedades de nuestro
+                            documento HTML. Por norma general, esta etiqueta recoge datos tales como
+                            autor, descripción de la página, palabras claves, software o editor con el que
+                            se ha generado el documento y tipo de contenido. Los atributos y uso de esta
+                            etiqueta son:
+                    <li>name: Dependiendo del valor de este atributo estaremos describiendo
+                        una información u otra: author para definir el autor de la página web,
+                        description para describir el contenido del sitio web, generator para
+                        establecer el nombre del editor HTML que estamos utilizando y keywords
+                        para definir las palabras claves que identifican el contenido de la web.
+                    </li>
+                    <li>http-equiv: Maneja información que se envía al servidor en la cabecera
+                        http.
+                    </li>
+                    <li>content: Recoge el valor de los atributos name y http-equiv.</li>
+                    <li>
+                        < title> : Etiqueta que define el título o nombre de nuestra página web. Este
+                            nombre es el que suele aparecer en la barra de título de las ventanas. Es obligatorio
+                            definir esta etiqueta dentro de < head>.
+                                < title>Este sería el título de nuestra web< /title>
+                    </li>
+                    </li>
+                    <li>
+                        < link>: Utilizaremos esta etiqueta para definir las rutas donde el documento
+                            HTML debe buscar las hojas de estilo externas (CSS) o iconos. Si declaramos
+                            esta etiqueta, debe ser siempre dentro de la cabecera. Los principales atributos de esta
+                            etiqueta son:
+                    <li>href: Ruta donde se encuentra el recurso en cuestión.</li>
+                    <li>rel: Relación entre el documento y el objeto o recurso que estamos
+                        vinculando.
+                    </li>
+                    <li>type: Tipo de MIME del objeto enlazado. <br>
+                        Un ejemplo de uso del elemento <br>
+                        < link>:
+                            < link href="css/estilo.css" rel="stylesheet" type="text/css">
+                    </li>
+                    <br>
+                    Gómez, M. R. (2013). HTML, CSS Y JAVASCRIPT.
+
+                    </li>
+
+
+                </p>
+            </article>
+        </section>
+        <aside class="lateral">
+            <a class="twitter-timeline" data-height="450" data-theme="dark"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+    </main>
+    <footer class="pie">
+        <p>
+            skype: savilladae <br>
+            email: savilladae@unadvirtual.edu.co <br>
+            Fecha: <time datetime="2022-10-25">Oct 25</time>
+        </p>
+    </footer>
+</body>
+
+</html>
