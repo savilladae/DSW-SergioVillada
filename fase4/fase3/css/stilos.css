@@ -1,11 +1,12 @@
-.encabezado{
+.encabezado {
     display: flex;
     flex-direction: row;
     background-color: #000000;
     padding: 10px;
     color: white;
 }
-.navegacion{
+
+.navegacion {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,54 +18,67 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.navegacion>li{
+
+.navegacion>li {
     float: left;
 }
-.navegacion a{
+
+.navegacion a {
     background-color: #000000;
     color: white;
     text-decoration: none;
     padding: 5px 40px;
     display: block;
 }
-.navegacion li a:hover{
+
+.navegacion li a:hover {
     background-color: #150050;
 }
-.navegacion li ul{
+
+.navegacion li ul {
     display: none;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
     min-width: 140px;
 }
-.navegacion li:hover > ul {
+
+.navegacion li:hover>ul {
     display: block;
 }
-.navegacion lu ul li{
+
+.navegacion lu ul li {
     position: relative;
 }
-.navegacion li ul li ul{
+
+.navegacion li ul li ul {
     right: 140px;
 }
-.contenedor{
+
+.contenedor {
     background-color: #3F0071;
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.principal{
+
+.principal {
     background-color: #FB2576;
     padding: 30px;
     grid-column: 1/4;
 }
-.lateral{
-background-color: #150050;
-padding: 30px;
-grid-column: 4/5;
+
+.lateral {
+    background-color: #150050;
+    padding: 30px;
+    grid-column: 4/5;
 
 }
-.pie{
-background-color: #000000;
-color: white;
-padding: 10px;
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
 }
