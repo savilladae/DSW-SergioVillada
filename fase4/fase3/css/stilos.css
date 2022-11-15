@@ -77,7 +77,8 @@
 
 .pie {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align:center;
     background-color: #000000;
     color: white;
     padding: 10px;
